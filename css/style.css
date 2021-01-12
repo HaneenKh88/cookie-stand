@@ -1,37 +1,10 @@
-body{
-    background-color: rgba(221, 186, 182, 0.541);
- }
- main{
-     display: block;
-     width: 200px;
-     font: 1em sans-serif;
-     font-size: large;
-     background-color: rgb(0, 0, 0);
- 
- }
- #p1{
-     color: rgba(7, 0, 0, 0.589);
-     display: inline-block ;
-     font-style : oblique ;
-     font: 5em sans-serif ;
-     width: 80px;
- 
- }
-
- section{
-    display: block;
-    width: 200px;
-    font: 1em sans-serif;
-    font-size: large;
-    background-color: rgb(0, 0, 0);
-
+td
+{
+    border: 2px solid black;
 }
 
-h2{
-    display: block;
-    width: 200px;
-    font: 1em sans-serif;
-    font-size: large;
-    background-color: rgb(0, 0, 0);
-
+#SalmonCookieTable
+{
+    border-collapse: collapse;
 }
+
