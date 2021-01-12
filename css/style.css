@@ -1,10 +1,8 @@
-td
-{
-    border: 2px solid black;
-}
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsAnDE0cKvk-anKYRxZMU5kSeldQupejdcMg&usqp=CAU");
+  }
 
-#SalmonCookieTable
-{
-    border-collapse: collapse;
-}
-
+  h3
+  {
+      color: black;
+  }
