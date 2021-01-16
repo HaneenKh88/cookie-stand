@@ -196,13 +196,13 @@ function submitter(event) {
   
 
 
- /* for (var i = 0; i < TotalRow.childNodes.length -1; i++) {
+ for (var i = 0; i < TotalRow.childNodes.length -1; i++) {
     TotalRow.childNodes[i].textContent = TotalOfSingleHour[i -1];
     
   }
 
   TotalRow.childNodes[i].textContent = grandTotal;
-  SalmonCookieTable.appendChild(TotalRow);*/
+  SalmonCookieTable.appendChild(TotalRow);
   
  
 }

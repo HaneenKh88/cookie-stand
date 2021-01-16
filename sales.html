@@ -3,38 +3,41 @@
   <head>
     <meta charset="utf-9">
     <title> Cookie Stand</title>
-    <link rel="css style" href="css/style.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
   </head>
   <body>
 <header>
+
+  <a href="index.html">Home</a>
+    <br>
+    <br>
+  <h2>Salmon Cookies</h2>
     
-    <p id="p1">Salmon Cookies</p>
-    <img src="Images/salmon.png" alt="" srcset="">
 </header>
 <main>
 
-  <form action="" id="LocationInfoForm">
+  <form action="submit" id="LocationInfoForm">
     <fieldset>
       <legend> Location Information Form: </legend>
     <label for="LocName">Location Name:</label>
-    <input type="text" id="LocName" name="LocName">
+    <input type="text" id="LocName" name="LocName" required pattern="[a-z]{3,10}" title="The User have to write a lowecase letters only for the location name, and the name should be atleast 3 letters and at most 9 letters">
     <br>
     <br>
 
     <label for="MinCustomers">The Number of Minimum Customers For The Location: </label>
-    <input type="text" name="MinCustomers" id="MinCustomers">
+    <input type="text" name="MinCustomers" id="MinCustomers" required pattern="[1-9]{1,10}" >
  
     <br>
     <br>
     
     <label for="MaxCustomers">The Number of Maximum Customers For The Location:</label>
-    <input type="text" name="MaxCustomers" id="MaxCustomers">
+    <input type="text" name="MaxCustomers" id="MaxCustomers" required pattern="[1-9]{1,10}">
     
     <br>
     <br>
 
     <label for="AvgCookies">The Number of Cookies Average For the location:</label>
-    <input type="text" name="AvgCookies" id="AvgCookies">
+    <input type="text" name="AvgCookies" id="AvgCookies" required pattern="[1-9]{1,10}">
     
     <br>
     <br>
