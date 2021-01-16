@@ -1,8 +1,105 @@
 body {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsAnDE0cKvk-anKYRxZMU5kSeldQupejdcMg&usqp=CAU");
+    background-image: url(https://media.istockphoto.com/photos/dark-blue-stained-grungy-background-or-texture-picture-id1132593892?k=6&m=1132593892&s=612x612&w=0&h=kdFpYAbe0jAnckEYkZdNWUVYbNdKXGxHa1rd8joRZEg=);
   }
 
-  h3
-  {
-      color: black;
+
+
+  #SalmonCookieTable  {
+    border: 5px solid rgb(255, 255, 255);
+    position: relative;
+    margin-left: 20%;
+    padding: 10px;
+    margin: 20px;
+    columns: 20px;
+    text-align: center;
+    background-color: rgba(5, 2, 43, 0.555);
+    color:rgb(255, 255, 255);
+    width: 90%;
+  
+}
+
+#LocationInfoForm
+{
+    background-color: rgba(0, 0, 0, 0.651);
+    color: white;
+}
+
+div, #h
+{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.692);
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    padding: 5px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+section
+{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    width: 30%;
+    height: 30%;
+    margin-left: 35%;
+    padding: 5px;
+    
+}
+
+a
+{
+   float: left;
+   color: white;
+   display: inline-block;
+   font-size: x-large;
+   margin-left: 48%;
+}
+
+#salmon
+{
+    margin-left: 30%;
+}
+
+
+h1 ,h2
+{
+   
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.692);
+    width: 30%;
+    height: 30%;
+    margin-left: 35%;
+    padding: 5px;
+}
+
+#Work
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+footer
+{
+    color: white;
+    font-size: large;
+    font: bold;
+    background-color: rgba(0, 0, 0, 0.63);
+}
+
+input:invalid {
+    border: 2px dashed rgba(131, 13, 13, 0.76);
+  }
+  
+input:invalid:required {
+    background-image: linear-gradient(to right, rgb(161, 166, 233), rgb(185, 144, 238));
+  }
+  
+  input:valid {
+    border: 2px solid rgba(0, 0, 0, 0.685);
   }
