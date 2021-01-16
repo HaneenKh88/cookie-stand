@@ -187,7 +187,7 @@ function submitter(event) {
 
   var AddLocation = new SalmonCookie(LocName, MinCustomers, MaxCustomers, AvgCookies);
 
-  //SalmonCookieTable.removeChild(TotalRow);
+  SalmonCookieTable.removeChild(TotalRow);
   AddLocation.getRandomCustPerHour();
   AddLocation.getAmountOfCookies();
   AddLocation.Render();
