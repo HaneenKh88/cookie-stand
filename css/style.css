@@ -1,7 +1,6 @@
 body {
     background-image: url(https://media.istockphoto.com/photos/dark-blue-stained-grungy-background-or-texture-picture-id1132593892?k=6&m=1132593892&s=612x612&w=0&h=kdFpYAbe0jAnckEYkZdNWUVYbNdKXGxHa1rd8joRZEg=);
-    font-family: 'PT Serif', serif;
-    font-family: 'Roboto', sans-serif;
+   
 }
 
 
@@ -17,8 +16,7 @@ body {
     background-color: rgba(5, 2, 43, 0.555);
     color:rgb(255, 255, 255);
     width: 90%;
-    font-family: 'PT Serif', serif;
-    font-family: 'Roboto', sans-serif;
+    
   
 }
 
@@ -39,9 +37,7 @@ div, #h
     margin-left: 25%;
     padding: 5px;
     border: 1px solid rgb(255, 255, 255);
-    font-family: 'PT Serif', serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Slab', serif;
+    
 }
 
 section
@@ -53,9 +49,7 @@ section
     height: 30%;
     margin-left: 35%;
     padding: 5px;
-    font-family: 'PT Serif', serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Slab', serif;
+    
     
 }
 
@@ -85,9 +79,7 @@ h1 ,h2, #h2, #about
     margin-left: 35%;
     padding: 5px;
     font-size: large;
-    font-family: 'PT Serif', serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Slab', serif;
+   
 }
 
 #Work
@@ -104,9 +96,7 @@ footer
     font-size: large;
     font: bold;
     background-color: rgba(0, 0, 0, 0.63);
-    font-family: 'PT Serif', serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Slab', serif;
+    
 }
 
 input:invalid {
