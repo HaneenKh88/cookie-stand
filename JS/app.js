@@ -5,8 +5,8 @@ var Hours = [' 6am ', ' 7am ', ' 8am ', ' 9am ', ' 10am ', ' 11am ', ' 12pm ', '
 
 
 
-function RandomCustNumber(min, max) {
-  return Math.floor(Math.random() * (max - min + 1) + min);
+function RandomCustNumber(MinHourlyCustomers, MaxHourlyCustomers) {
+  return Math.ceil(Math.random() * (MaxHourlyCustomers - MinHourlyCustomers) + MinHourlyCustomers);
 }
 
 function SalmonCookie(location, MinHourlyCustomers, MaxHourlyCustomers, AvgCookiesPerCustomer) {
@@ -176,16 +176,16 @@ function submitter(event) {
   var LocName = event.target.LocName.value;
   console.log('LocName', LocName);
 
-  var MinCustomers = event.target.MinCustomers.value;
+  var MinCustomer = event.target.MinCustomers.value;
   console.log('MinCustomers', MinCustomers);
 
-  var MaxCustomers = event.target.MaxCustomers.value;
+  var MaxCustomer = event.target.MaxCustomers.value;
   console.log('MaxCustomers', MaxCustomers);
 
   var AvgCookies = event.target.AvgCookies.value;
   console.log('AvgCookies', AvgCookies);
 
-  var AddLocation = new SalmonCookie(LocName, MinCustomers, MaxCustomers, AvgCookies);
+  var AddLocation = new SalmonCookie(LocName, MinCustomer, MaxCustomer, AvgCookies);
 
   SalmonCookieTable.removeChild(TotalRow);
   AddLocation.getRandomCustPerHour();
@@ -204,7 +204,7 @@ function submitter(event) {
   TotalRow.childNodes[i].textContent = grandTotal;
   SalmonCookieTable.appendChild(TotalRow);
   
- 
+  
 }
 
 FooterRow();
