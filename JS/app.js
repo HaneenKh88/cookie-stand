@@ -5,14 +5,14 @@ var Hours = [' 6am ', ' 7am ', ' 8am ', ' 9am ', ' 10am ', ' 11am ', ' 12pm ', '
 
 
 
-function RandomCustNumber(MinHourlyCustomers, MaxHourlyCustomers) {
-  return Math.ceil(Math.random() * (MaxHourlyCustomers - MinHourlyCustomers) + MinHourlyCustomers);
+function RandomCustNumber(Min, Max) {
+  return Math.ceil(Math.random() * (Max - Min) + Min);
 }
 
-function SalmonCookie(location, MinHourlyCustomers, MaxHourlyCustomers, AvgCookiesPerCustomer) {
+function SalmonCookie(location, MinHourCustomers, MaxHourCustomers, AvgCookiesPerCustomer) {
   this.location = location;
-  this.MinHourlyCustomers = MinHourlyCustomers;
-  this.MaxHourlyCustomers = MaxHourlyCustomers;
+  this.MinHourCustomers = MinHourCustomers;
+  this.MaxHourCustomers = MaxHourCustomers;
   this.AvgCookiesPerCustomer = AvgCookiesPerCustomer;
   this.RandomCustPerHour = [];
   this.AmountsOfCookies = [];
@@ -23,7 +23,7 @@ function SalmonCookie(location, MinHourlyCustomers, MaxHourlyCustomers, AvgCooki
 
 SalmonCookie.prototype.getRandomCustPerHour = function () {
   for (var i = 0; i < Hours.length; i++) {
-    this.RandomCustPerHour.push(RandomCustNumber(this.MinHourlyCustomers, this.MaxHourlyCustomers));
+    this.RandomCustPerHour.push(RandomCustNumber(this.MinHourCustomers, this.MaxHourCustomers));
   }
 
 }
